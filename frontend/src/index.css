@@ -1,0 +1,10 @@
+.mainbox{
+  width: 600px;
+  height: auto;
+}
+
+.box{
+  width: 300px;
+  height: auto;
+  background-color: pink;
+}
