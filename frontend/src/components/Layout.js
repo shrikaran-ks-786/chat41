@@ -10,7 +10,7 @@ function Layout() {
     e.preventDefault();
 
     try {
-      const response = await Axios.post("http://localhost:8080/askQuestion",{question});
+      const response = await Axios.post("http://localhost:3000/askQuestion",{question});
       setans(response.data.answer);
     } catch (error) {
       console.error("Error submitting question:", error);
